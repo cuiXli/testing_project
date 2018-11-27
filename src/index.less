@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent
+}
+
+:after,:before {
+  box-sizing: border-box
+}
+
+article,aside,blockquote,body,button,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,section,td,textarea,th,ul {
+  margin: 0;
+  padding: 0
+}
+ul , ol{
+  list-style:none;
+}
+a{
+  color:#4383EF;
+  text-decoration: none;
+}
+a:active,a:hover,a:focus  {
+  outline: 0;
+  text-decoration: none
+}
+a:hover{
+  color: #97b2fc;
+}
+a:active{
+  color: #4f67c9;
+}
+a img{
+  border:none;
+}
+.clear:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.no-close .ant-notification-notice-close{
+  display: none;
+}
+
+.form-item-with-help .form-item-label{
+  margin-top: 0;
+}
+
+.calendar-picker{
+  margin: 0 12px 0 0;
+}
+
+
+.m-vertical-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.m-horizontal-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.m-right-12{
+  margin-right: 12px
+}
+
+.white-color{
+  color: #fff;
+}
+.grey-color {
+  color: rgba(0, 0, 0, .25);
+}
+.red-color{
+  color:#FF4E4E;
+}
+.lightblack-color{
+  color:#333333
+}
+
+#form_inline{
+  position: relative;
+  &::after{
+     content:'';
+     display:block;
+     clear: both;
+  } 
+}
+
+.option-btn{
+  text-decoration: underline;
+  margin-right: 15px
+  
+}
+.option-btn:active,.option-btn:hover{
+    text-decoration: underline
+}
+
+.ant-input{
+  height: 34px;
+  border: 1px solid #cddced;
+  border-radius: 6px;
+}
+
+.ant-pagination-item-active {
+  background-color: #6887EF;
+}
+.ant-pagination-item-active a,.ant-pagination-item-active a:hover,.ant-pagination-item-active:focus a, .ant-pagination-item-active:hover a {
+  color: white;
+}
+.float_right{
+  float: right;
+}
+
+.font-14{
+  font-size: 14px;
+}
+
+.m-b-20{
+  margin-bottom: 20px;
+}
+// .ant-calendar{
+//   position: absolute;
+// }
+input.ant-input-number-input::-webkit-input-placeholder{/*Webkit browsers*/
+  color:#777;
+}
+input.ant-input-number-input:-moz-placeholder{/*Mozilla Firefox 4 to 8*/
+ color:#777;
+}
+input.ant-input-number-input::moz-placeholder{/*Mozilla Firefox 19+*/
+ color:#777;
+}
+input.ant-input-number-input:-ms-input-placeholder{/*Internet Explorer 10+*/
+  color:#777;
+}
